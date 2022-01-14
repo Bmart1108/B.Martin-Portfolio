@@ -1,2 +1,2 @@
-# B.Martin-Portfolio
- Portfolio for B.Martin
+# DaneWhitmanPortfolio
+ Portfolio for Dane Whitman

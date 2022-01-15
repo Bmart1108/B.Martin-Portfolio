@@ -120,7 +120,7 @@ body {
     background-color: #4edfae;
     border-color: #090211;
     color: #090211;
-    font-weight: 500;
+    font-weight: 400;
     font-size: large;
 }
 
@@ -139,7 +139,7 @@ body {
 
 @media (min-width: 374.98px) {
     .mainHeader {
-        background-image: url(/img/SUNSKY576-200-1.png);
+        background-image: url(/img/SUNSKY375x150.jpg);
         height: 274px;
     }
 
@@ -164,15 +164,15 @@ body {
     }
 }
 
-@media (min-width: 372.98px) {
+@media (min-width: 355.98px) {
     .mainHeader {
-        background-image: url(/img/SUNSKY375x150.jpg);
-        height: 250px;
+        background-image: url(/img/SUNSKY576-200-1.png);
+        height: 274px;
     }
 
     .mainTitle {
-        font-size: 2.1rem;
-        line-height: 1.8rem;
+        font-size: 1.3rem;
+        line-height: 1rem;
     }
 
     .mainLogo {
@@ -182,10 +182,10 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: 1rem;
+        font-size: 0.6rem;
         line-height: 1rem;
         font-weight: 300;
-        letter-spacing: .2rem;
+        letter-spacing: .1rem;
     }
 }
 

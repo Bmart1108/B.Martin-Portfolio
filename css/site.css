@@ -30,6 +30,8 @@ h1,
     font-family: var(--title-font);
 }
 
+
+
 .nav-item {
     font-family: var(--title-font);
     font-size: 1.5rem;
@@ -110,6 +112,22 @@ body {
     width: 18rem;
 }
 
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #4edfae;
+    border-color: #090211;
+    color: #090211;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+
+
+
 
 
 
@@ -118,6 +136,37 @@ body {
 /*------MEDIA QUERIES-------*/
 
 /*small devices (landscape phones 576px and up*/
+
+@media (min-width: 374.98px) {
+    .mainHeader {
+        background-image: url(/img/SUNSKY576-200-1.png);
+        height: 274px;
+    }
+
+    .mainTitle {
+        font-size: 2.1rem;
+        line-height: 1.8rem;
+
+    }
+
+    .mainLogo {
+        height: .5em;
+
+    }
+
+    .subtitle {
+        font-family: var(--sibtitle-font);
+        font-size: .6em;
+        line-height: 1rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
+        padding-bottom: .2em;
+    }
+}
+
+
+
+
 
 @media (min-width: 575.98px) {
     .mainHeader {
@@ -240,7 +289,8 @@ body {
     .subtitle {
         font-family: var(--sibtitle-font);
         font-size: 1.2rem;
-        line-height: 1.2rem;
+        line-height: 1.3rem;
+        padding-bottom: .4rem;
         font-weight: 500;
         letter-spacing: .4rem;
 

@@ -121,7 +121,7 @@ body {
     border-color: #090211;
     color: #090211;
     font-weight: 400;
-    font-size: large;
+    font-size: medium;
 }
 
 
@@ -171,8 +171,8 @@ body {
     }
 
     .mainTitle {
-        font-size: 1.3rem;
-        line-height: 1rem;
+        font-size: 1.4rem;
+        line-height: 1.1rem;
     }
 
     .mainLogo {
@@ -182,7 +182,7 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .1rem;

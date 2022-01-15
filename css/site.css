@@ -167,6 +167,30 @@ body {
 
 
 
+@media (min-width: 575.98px) {
+    .mainHeader {
+        background-image: url(/img/SUNSKY576-200-1.png);
+        height: 274px;
+    }
+
+    .mainTitle {
+        font-size: 2.1rem;
+        line-height: 1.8rem;
+    }
+
+    .mainLogo {
+        height: .5em;
+
+    }
+
+    .subtitle {
+        font-family: var(--sibtitle-font);
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+    }
+}
 
 @media (min-width: 575.98px) {
     .mainHeader {
@@ -186,7 +210,7 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: .6em;
+        font-size: 1rem;
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .2rem;
@@ -210,7 +234,7 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         line-height: 1.2rem;
         font-weight: 300;
         letter-spacing: .2rem;
@@ -237,7 +261,7 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: .8em;
+        font-size: 1.3rem;
         line-height: 1.3rem;
         font-weight: 400;
         letter-spacing: .5rem;
@@ -263,9 +287,9 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 1.2rem;
-        font-weight: 500;
+        font-weight: 400;
         letter-spacing: .1rem;
 
     }
@@ -288,10 +312,10 @@ body {
 
     .subtitle {
         font-family: var(--sibtitle-font);
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.3rem;
         padding-bottom: .4rem;
-        font-weight: 500;
+        font-weight: 400;
         letter-spacing: .4rem;
 
     }

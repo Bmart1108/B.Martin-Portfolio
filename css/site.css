@@ -35,6 +35,7 @@ h1,
 .nav-item {
     font-family: var(--title-font);
     font-size: 1.5rem;
+   
 }
 
 
@@ -78,7 +79,7 @@ body {
 
 /* sizing the logo for header*/
 .mainLogo {
-    height: .6em;
+    padding-right: 1em;
 
 }
 
@@ -112,11 +113,11 @@ body {
     width: 18rem;
 }
 
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focus {
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
     background-color: #4edfae;
     border-color: #090211;
     color: #090211;
@@ -176,7 +177,7 @@ body {
     }
 
     .mainLogo {
-        height: .5em;
+        height: 3rem;
 
     }
 
@@ -202,7 +203,7 @@ body {
     }
 
     .mainLogo {
-        height: .5em;
+        height: 2.5em;
 
     }
 
@@ -227,7 +228,7 @@ body {
     }
 
     .mainLogo {
-        height: .5em;
+        height: 2.5em;
 
     }
 
@@ -252,7 +253,7 @@ body {
     }
 
     .mainLogo {
-        height: .6em;
+        height: 3rem;
     }
 
     .subtitle {
@@ -277,7 +278,7 @@ body {
     }
 
     .mainLogo {
-        height: .6em;
+        height: 3.5rem;
 
     }
 
@@ -304,7 +305,7 @@ body {
     }
 
     .mainLogo {
-        height: .6em;
+        height: 4rem;
 
     }
 
@@ -330,7 +331,9 @@ body {
     }
 
     .mainLogo {
-        height: .8em;
+        height: 4rem;
+        
+        
     }
 
     .subtitle {

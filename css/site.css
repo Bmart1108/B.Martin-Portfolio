@@ -35,13 +35,11 @@ h1,
 .nav-item {
     font-family: var(--title-font);
     font-size: 1.5rem;
-   
+
 }
 
 
 body {
-    padding-left: 1em;
-    padding-right: 1em;
     font-family: var(--bm-body-font);
     font-size: var(--bm-font-size);
     font-weight: var(--bm-font-weight);
@@ -78,10 +76,8 @@ body {
 }
 
 /* sizing the logo for header*/
-.mainLogo {
-    padding-right: 1em;
 
-}
+
 
 /* SUBTITLE STYLING*/
 .subtitle {
@@ -110,6 +106,8 @@ body {
 
 /*------Project Cards-----*/
 .projectCard {
+    border-color: var(--bm-dark-color);
+    border-width: 1x;
     width: 18rem;
 }
 
@@ -332,8 +330,8 @@ body {
 
     .mainLogo {
         height: 4rem;
-        
-        
+
+
     }
 
     .subtitle {

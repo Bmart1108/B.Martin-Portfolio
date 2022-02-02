@@ -114,7 +114,9 @@ body {
 .btn-header {
     font-weight: 500;
     font-size: large;
-    float: right;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
 }
 
 .btn-secondary,

@@ -30,7 +30,28 @@ h1,
     font-family: var(--title-font);
 }
 
+.btnMain,
+.btnMain,
+.btnMain,
+.btnMain,
+.btnMain{
+    background-color: transparent;
+    border-style:dashed;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-width: .2em;
+    text-shadow: #090211;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: -10px;
+    margin-top: .3em;
+    
+    
+}
 
+.btnMain:hover{
+    background-color: #4294BA;
+}
 
 .nav-item {
     font-family: var(--title-font);
@@ -111,13 +132,7 @@ body {
     width: 18rem;
 }
 
-.btn-header {
-    font-weight: 500;
-    font-size: large;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-}
+
 
 .btn-secondary,
 .btn-secondary:hover,
